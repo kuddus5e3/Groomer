@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Timer Bootstrap</title>
+	<link rel="stylesheet" href="https://mdbootstrap.com/api/snippets/static/download/MDB-Pro_4.20.0/css/bootstrap.min.css">
+  	<link rel="stylesheet" href="https://mdbootstrap.com/api/snippets/static/download/MDB-Pro_4.20.0/css/mdb.min.css">
+</head>
+<body>
+<input type="text" name="timer" id="timer" value="">
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script type="text/javascript" src="https://mdbootstrap.com/api/snippets/static/download/MDB-Pro_4.20.0/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://mdbootstrap.com/api/snippets/static/download/MDB-Pro_4.20.0/js/mdb.min.js"></script>
+<script type="text/javascript">
+	$('#timer').pickatime({
+    twelvehour: true,
+    autoclose: true,
+    //darktheme:false
+  });
+</script>
+</body>
+</html>
